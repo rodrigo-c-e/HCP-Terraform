@@ -42,3 +42,11 @@ variable "ingress_port_list" {
   description = "lista de puertos para el SG"
   type        = list(number)
 }
+
+variable "access_key" {
+  description = "Access key for the AWS account"
+}
+
+variable "secret_key" {
+  description = "Secret key for the AWS account"
+}
